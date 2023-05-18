@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'libary',
     loadChildren: () =>
-      import('./shared/models/card/card.module').then((m) => m.CardModule),
+      import('./libary/libary.module').then((m) => m.LibaryModule),
   },
 ];
 
