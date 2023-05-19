@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
 
 import { LibaryRoutingModule } from './libary-routing.module';
 import { LibaryComponent } from './libary/libary.component';
+import { AppMaterialImportsModule } from 'src/shared/app-material-imports/app-material-imports.module';
 
 @NgModule({
   declarations: [LibaryComponent],
-  imports: [CommonModule, LibaryRoutingModule, MatCardModule],
+  imports: [CommonModule, LibaryRoutingModule, AppMaterialImportsModule],
 })
 export class LibaryModule {}
