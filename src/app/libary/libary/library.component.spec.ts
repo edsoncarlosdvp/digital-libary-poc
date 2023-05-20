@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LibaryComponent } from './libary.component';
+import { LibaryComponent } from './library.component';
 
 describe('LibaryComponent', () => {
   let component: LibaryComponent;
@@ -8,9 +8,8 @@ describe('LibaryComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LibaryComponent ]
-    })
-    .compileComponents();
+      declarations: [LibaryComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

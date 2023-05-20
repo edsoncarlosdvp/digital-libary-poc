@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'libary',
     loadChildren: () =>
-      import('./libary/libary.module').then((m) => m.LibaryModule),
+      import('./libary/library.module').then((m) => m.LibraryModule),
   },
 ];
 
