@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LibraryComponent } from './libary/library.component';
+import { LibraryComponent } from './library/library.component';
 
 const routes: Routes = [{ path: '', component: LibraryComponent }];
 

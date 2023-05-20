@@ -5,12 +5,12 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'libary',
+    redirectTo: 'library',
   },
   {
-    path: 'libary',
+    path: 'library',
     loadChildren: () =>
-      import('./libary/library.module').then((m) => m.LibraryModule),
+      import('./library/library.module').then((m) => m.LibraryModule),
   },
 ];
 
