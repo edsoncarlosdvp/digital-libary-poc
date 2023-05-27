@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { first, tap } from 'rxjs/operators';
-import { ILibrary } from '../libary/library.interface';
+import { ILibrary } from '../library/library.interface';
 
 @Injectable({
   providedIn: 'root',
