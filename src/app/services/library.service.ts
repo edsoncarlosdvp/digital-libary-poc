@@ -7,7 +7,7 @@ import { ILibrary } from '../library/library.interface';
   providedIn: 'root',
 })
 export class LibraryService {
-  private readonly API = '/src/assets/dbLibrary.json';
+  private readonly API = '/assets/dbLibrary.json';
 
   constructor(private httpClient: HttpClient) {}
 

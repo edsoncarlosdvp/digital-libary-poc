@@ -1,4 +1,4 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable, of } from 'rxjs';
@@ -9,6 +9,10 @@ import { ILibrary } from '../library.interface';
 
 @Injectable({
   providedIn: 'root',
+})
+@Component({
+  selector: 'app-library',
+  templateUrl: './library.component.html',
 })
 export class LibraryComponent implements OnInit {
   library$: Observable<ILibrary[]>;
