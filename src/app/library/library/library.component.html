@@ -2,7 +2,7 @@
     {{library | async | json}}
 </pre> -->
 <mat-card-content class="container-card">
-  <div *ngIf="library$ | async as library; else loading">
+  <div class="container-card" *ngIf="library$ | async as library; else loading">
     <mat-card class="content-card" *ngFor="let data of library$ | async">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image"></div>
